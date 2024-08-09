@@ -43,7 +43,7 @@ public class TvShowsController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    public IActionResult Post(int id, [FromBody]TvShowDto tvShowDto)
+    public IActionResult Put(int id, [FromBody]TvShowDto tvShowDto)
     {
         if (!ModelState.IsValid) return BadRequest(ModelState);
 

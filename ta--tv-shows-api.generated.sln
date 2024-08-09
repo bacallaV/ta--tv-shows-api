@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ta--tv-shows-api", "ta--tv-shows-api.csproj", "{E4BEE9AC-1EAB-4B99-90C8-4FAE3DD759FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ta--tv-shows-api", "ta--tv-shows-api.csproj", "{BC514ADE-561B-4142-AB43-9E8D0E325ADA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E4BEE9AC-1EAB-4B99-90C8-4FAE3DD759FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E4BEE9AC-1EAB-4B99-90C8-4FAE3DD759FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E4BEE9AC-1EAB-4B99-90C8-4FAE3DD759FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E4BEE9AC-1EAB-4B99-90C8-4FAE3DD759FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC514ADE-561B-4142-AB43-9E8D0E325ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC514ADE-561B-4142-AB43-9E8D0E325ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC514ADE-561B-4142-AB43-9E8D0E325ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC514ADE-561B-4142-AB43-9E8D0E325ADA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

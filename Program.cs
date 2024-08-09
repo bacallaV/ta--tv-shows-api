@@ -25,6 +25,13 @@ app.UseHttpsRedirection();
 
 app.MapControllers();
 
+app.UseCors(builder =>
+    builder
+    .AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+);
+
 // app.MapGet("/tv-shows/{id}", (int id) => TvShowsDB.GetTvShow(id));
 // app.MapGet("/tv-shows/", () => TvShowsDB.GetTvShows());
 // app.MapPost("/tv-shows/", (TvShow tvShow) => TvShowsDB.CreateTvShow(tvShow));
